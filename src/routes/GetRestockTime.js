@@ -12,7 +12,7 @@ function pad(n) {
 
 function calculateRestockTimes() {
   const now = new Date();
-  const timezone = 'America/New_York'; // or use Intl.DateTimeFormat().resolvedOptions().timeZone if preferred
+  const timezone = 'Europe/Paris'; // or use Intl.DateTimeFormat().resolvedOptions().timeZone if preferred
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
   function formatTime(timestamp) {
